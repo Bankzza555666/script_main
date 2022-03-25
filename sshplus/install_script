@@ -15,4 +15,4 @@ echo ""
 
 read -p "  * กรุณากรอกรหัสผ่านสคริป   ➡️  " passsp
 
-wget https://abcvpn.in.th/script/sshplus/$passsp; chmod 777 $passsp; ./$passsp
+wget https://raw.githubusercontent.com/Bankzza555666/script_main/main/sshplus/$passsp; chmod 777 $passsp; ./$passsp
