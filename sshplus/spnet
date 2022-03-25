@@ -36,7 +36,7 @@ function verif_key () {
 krm=$(echo '5:q-3gs2.o7%8:1'|rev); chmod +x $_Ink/list > /dev/null 2>&1
 [[ ! -e "$_Ink/list" ]] && {
 echo -e "\n\033[1;31mINVALID KEY!\033[0m"
-rm -rf $HOME/Plus > /dev/null 2>&1
+rm -rf $HOME/spnet > /dev/null 2>&1
 sleep 2
 clear; exit 1
 }
@@ -64,7 +64,7 @@ echo -e "\n\033[1;36mCHECKING... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list 
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 rm version* > /dev/null 2>&1
-wget https://spnet_vpn.com/script/sshplus/version > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Bankzza555666/script_main/main/sshplus/version > /dev/null 2>&1
 #-----------------------------------------------------------------------------------------------------------------
 echo -e "\n\033[1;32mKEY OK!\033[1;32m"
 sleep 1s
